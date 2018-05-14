@@ -14,7 +14,7 @@ parser.add_argument('--n_img_channels', type=int, default=1)
 parser.add_argument('--n_classes', type=int, default=10)
 parser.add_argument('--lr', type=float, default=1e-3)
 parser.add_argument('--model', default='cap', help='choose between cnn and cap')
-parser.add_argument('--dataset', dest='processed_dir', default='./MNIST_data')
+parser.add_argument('--dataset', dest='processed_dir', default='./data/mnist')
 parser.add_argument('--load_model_path', dest='load_model_path', default=None)  # './savedmodels'
 parser.add_argument('--mode', dest='MODE', default='train', help='choose between train and test')
 
